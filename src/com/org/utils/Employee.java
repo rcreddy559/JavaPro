@@ -1,4 +1,4 @@
-package com.emc.utils;
+package com.org.utils;
 
 public class Employee {
 

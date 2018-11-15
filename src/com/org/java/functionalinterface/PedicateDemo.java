@@ -3,8 +3,8 @@ package com.org.java.functionalinterface;
 import java.util.List;
 import java.util.stream.Stream;
 
-import com.emc.utils.Employee;
-import com.emc.utils.ObjectsUtils;
+import com.org.utils.Employee;
+import com.org.utils.ObjectsUtils;
 
 public class PedicateDemo {
 

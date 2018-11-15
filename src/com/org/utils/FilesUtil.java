@@ -1,4 +1,4 @@
-package com.emc.utils;
+package com.org.utils;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,8 +14,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import com.emc.models.EduEmployee;
-import com.emc.models.Employee;
+import com.org.models.EduEmployee;
 
 //@Component
 public class FilesUtil {
@@ -95,7 +94,7 @@ public class FilesUtil {
 			lines.skip(1).forEach((s) -> {
 				int count = 0;
 				String[] words = s.split(",");
-				Employee employee = new Employee(words[count++], words[count++], words[count++], words[count++],
+				EduEmployee employee = new EduEmployee(words[count++], words[count++], words[count++], words[count++],
 						words[count++], words[count++], words[count++], words[count++], words[count++], words[count++],
 						words[count++], words[count++], words[count++], words[count++], words[count++], words[count++],
 						words[count++], words[count++], words[count++], words[count++], words[count++], words[count++],

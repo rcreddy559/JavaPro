@@ -1,11 +1,11 @@
-package com.emc.utils;
+package com.org.utils;
 
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Stream;
 
 import com.emc.exceptions.EducationException;
-import com.emc.models.EduEmployee;
+import com.org.models.EduEmployee;
 
 
 public class EmpUtils {

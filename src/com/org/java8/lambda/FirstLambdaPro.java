@@ -1,11 +1,9 @@
 package com.org.java8.lambda;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import com.emc.utils.ObjectsUtils;
-import com.emc.utils.Person;
+import com.org.utils.ObjectsUtils;
 
 public class FirstLambdaPro {
 
@@ -22,7 +20,7 @@ public class FirstLambdaPro {
     }
 
     public void compartorLabda1() {
-        List<Person> listOfPersions = ObjectsUtils.getPersions();
+        List<com.org.utils.Person> listOfPersions = ObjectsUtils.getPersions();
         Collections.sort(listOfPersions, (o1,o2)->{
             return Integer.compare(o1.getAge(),o2.getAge());
         });

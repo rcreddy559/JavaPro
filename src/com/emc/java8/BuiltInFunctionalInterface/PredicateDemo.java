@@ -3,8 +3,8 @@ package com.emc.java8.BuiltInFunctionalInterface;
 import java.util.List;
 import java.util.function.Predicate;
 
-import com.emc.utils.ObjectsUtils;
-import com.emc.utils.Person;
+import com.org.utils.ObjectsUtils;
+import com.org.utils.Person;
 
 public class PredicateDemo {
 

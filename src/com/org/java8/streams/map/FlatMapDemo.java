@@ -6,7 +6,7 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import com.emc.utils.ObjectsUtils;
+import com.org.utils.ObjectsUtils;
 
 public class FlatMapDemo {
 

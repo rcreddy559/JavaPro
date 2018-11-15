@@ -1,13 +1,11 @@
 package com.emc.java8.lambda.methodreferance;
 
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
-import com.emc.utils.ObjectsUtils;
-import com.emc.utils.Person;
+import com.org.utils.ObjectsUtils;
+import com.org.utils.Person;
 
 public class MethodReferanceExample2 {
 

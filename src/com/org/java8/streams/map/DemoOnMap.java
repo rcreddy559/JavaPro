@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import com.emc.utils.Employee;
-import com.emc.utils.ObjectsUtils;
-import com.emc.utils.Person;
+import com.org.utils.Employee;
+import com.org.utils.ObjectsUtils;
+import com.org.utils.Person;
 
 public class DemoOnMap {
 

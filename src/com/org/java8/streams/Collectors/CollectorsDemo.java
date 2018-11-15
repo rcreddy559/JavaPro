@@ -7,8 +7,8 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import com.emc.utils.Item;
-import com.emc.utils.ObjectsUtils;
+import com.org.utils.Item;
+import com.org.utils.ObjectsUtils;
 
 public class CollectorsDemo {
 

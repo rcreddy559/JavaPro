@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.emc.utils.Person;
+import com.org.utils.Person;
 
 public class ExerciseSolutionJava7 {
 

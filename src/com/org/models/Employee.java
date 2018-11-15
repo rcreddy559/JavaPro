@@ -1,4 +1,4 @@
-package com.emc.models;
+package com.org.models;
 
 public class Employee {
 

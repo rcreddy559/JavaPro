@@ -2,7 +2,7 @@ package com.emc.java8.BuiltInFunctionalInterface;
 
 import java.util.function.Supplier;
 
-import com.emc.utils.Car;
+import com.org.utils.Car;
 
 public class SupplierDemo {
 

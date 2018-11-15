@@ -1,4 +1,4 @@
-package com.emc.test;
+package com.emc;
 
 public class AllInOneProgrames {
 	public static void main(String[] args) {

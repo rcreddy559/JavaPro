@@ -5,18 +5,18 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.emc.util.Person;
+import com.emc.utils.Person;
 
 public class ExerciseSolutionJava7 {
 
 	public static void main(String[] args) {
 		List<Person> people = Arrays.asList(
-				new Person("Ravi","chandra", 36),
-				new Person("Shobha","Penumuru", 31),
-				new Person("Jagan","Mohan", 41),
-				new Person("Jyothis","penumuru", 8),
-				new Person("Sohith","Reddy", 6),
-				new Person("Divija","chandra", 4)
+				new Person("Ravi","chandra", 36,"M",33),
+				new Person("Shobha","Penumuru", 31,"F",33),
+				new Person("Jagan","Mohan", 41,"M",33),
+				new Person("Jyothis","penumuru", 8,"M",33),
+				new Person("Sohith","Reddy", 6,"M",33),
+				new Person("Divija","chandra", 4,"F",33)
 				);
 		
 		Collections.sort(people, new Comparator<Person>() {

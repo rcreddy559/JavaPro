@@ -2,13 +2,14 @@ package com.emc.exceptions;
 
 import java.io.PrintStream;
 
-import org.apache.logging.log4j.message.Message;
-
 public class EducationException extends Exception {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -2672743502424875197L;
 	private String message = "";
-	private EducationException() {}
-	
+		
 	public EducationException(String message) {
 		super(message);
 		this.message = message;

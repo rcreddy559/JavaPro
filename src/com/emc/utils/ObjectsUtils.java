@@ -16,25 +16,13 @@ public class ObjectsUtils {
 	public static List<Person> getPersions() {
 
 		List<Person> listOfPersions = new ArrayList<>(20);
-		listOfPersions.add(new Person("Ravi", "Chandra", 37));
-		listOfPersions.add(new Person("shobha", "penumuru", 33));
-		listOfPersions.add(new Person("Divija", "reddy", 5));
-		listOfPersions.add(new Person("Jagan", "mohan", 66));
-		listOfPersions.add(new Person("cccccc", "vvvvvvvvv", 44));
-		listOfPersions.add(new Person("bbbbbbbb", "nnn", 22));
-		listOfPersions.add(new Person("mmm", "zzz", 56));
-		listOfPersions.add(new Person("xx", "Chandra", 88));
-		listOfPersions.add(new Person("aaa", "ddddddd", 77));
-		listOfPersions.add(new Person("ggggggg", "hhhhhh", 55));
-		listOfPersions.add(new Person("kkkkkkk", "jjjjjjj", 31));
-		listOfPersions.add(new Person("www", "eeeeeee", 33));
-		listOfPersions.add(new Person("rrrrrrr", "ttttt", 34));
-		listOfPersions.add(new Person("uuuuuu", "iiiiiiiii", 57));
-		listOfPersions.add(new Person("oooo", "pppppppp", 43));
-		listOfPersions.add(new Person("dddddd", "cccccccc", 27));
-		listOfPersions.add(new Person("fffff", "gggg", 17));
-		listOfPersions.add(new Person("xcxcx", "vbvb", 7));
-		listOfPersions.add(new Person("dfdf", "asasa", 3));
+		listOfPersions.add(new Person("Mark ","Zuckerberg", 33, "M",00));
+		listOfPersions.add(new Person("Bill ","Gates", 62, "M",33));
+		listOfPersions.add(new Person("Marissa ","Mayer", 42, "F",333));
+		listOfPersions.add(new Person("Satya ","Nadella", 50, "M",44));
+		listOfPersions.add(new Person("Sundar"," Pichai", 45, "M",555));
+		listOfPersions.add(new Person("Sergey"," Brin", 44, "M",666));
+		listOfPersions.add(new Person("Larry"," Page", 45, "M",777));
 
 		return listOfPersions;
 	}
@@ -91,6 +79,8 @@ public class ObjectsUtils {
 
 		return items;
 	}
+	
+	 
 
 	public static void main(String[] args) {
 		getListOfIntegers().forEach(i -> System.out.println(i));

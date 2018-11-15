@@ -14,19 +14,14 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import org.apache.log4j.Logger;
-import org.springframework.stereotype.Component;
-
 import com.emc.models.EduEmployee;
 import com.emc.models.Employee;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 
-@Component
+//@Component
 public class FilesUtil {
 	private FilesUtil() {
 	}
-	final static private Logger logger = org.apache.log4j.LogManager.getLogger(FilesUtil.class);
+	//final static private Logger logger = org.apache.log4j.LogManager.getLogger(FilesUtil.class);
 	final static String fileName = "C:/Users/penumr/Documents/City-Parish_Employee_Annual_Salaries.csv";
 
 	List<String> linesList = new ArrayList<>();
@@ -50,8 +45,8 @@ public class FilesUtil {
 	}
 
 	private static EduEmployee readEmployeeStream(final String employeeNum) {
-		logger.debug("employeeNum : " + employeeNum);
-		logger.debug("employees size : " + employees.size());
+		System.out.println("employeeNum : " + employeeNum);
+		System.out.println("employees size : " + employees.size());
 		Optional<EduEmployee> eduEmployee = null;
 
 		Stream<EduEmployee> s = employees.stream().filter((e) -> {
@@ -64,7 +59,7 @@ public class FilesUtil {
 	}
 
 	public static Set<EduEmployee> readEmployeesStream() {
-		logger.info("START readFilewithStream ");
+		System.out.println("START readFilewithStream ");
 		 
 		try (Stream<String> lines = Files.lines(Paths.get(fileName))) {
 
@@ -79,21 +74,21 @@ public class FilesUtil {
 
 				);
 
-//				logger.debug(employee.toString());
+//				System.out.println(employee.toString());
 				employees.add(employee);
 
 			});
-			logger.debug("employees Size: " + employees.size());
+			System.out.println("employees Size: " + employees.size());
 
 		} catch (IOException e) {
 
 		}
-		logger.info("END readFilewithStream ");
+		System.out.println("END readFilewithStream ");
 		return employees;
 	}
 
 	public List<String> readCarsStream() {
-		logger.info("START readFilewithStream ");
+		System.out.println("START readFilewithStream ");
 
 		try (Stream<String> lines = Files.lines(Paths.get(fileName))) {
 
@@ -106,32 +101,32 @@ public class FilesUtil {
 						words[count++], words[count++], words[count++], words[count++], words[count++], words[count++],
 						words[count++]);
 
-				logger.debug(employee.toString());
+				System.out.println(employee.toString());
 
 			});
-			logger.debug("Size: " + employees.size());
+			System.out.println("Size: " + employees.size());
 
 		} catch (IOException e) {
 
 		}
-		logger.info("END readFilewithStream ");
+		System.out.println("END readFilewithStream ");
 		return linesList;
 	}
 
 	public List<String> readFileWithBufferedReader() {
-		logger.info("START readFileWithBufferedReader ");
+		System.out.println("START readFileWithBufferedReader ");
 
 		try (BufferedReader bufferedReader = Files.newBufferedReader(Paths.get(fileName))) {
 			linesList = bufferedReader.lines().collect(Collectors.toList());
 		} catch (Exception e) {
-			logger.error("ERROR while reading file in readFileWithBufferedReader");
+			System.out.println("ERROR while reading file in readFileWithBufferedReader");
 		}
-		logger.info("END readFileWithBufferedReader ");
+		System.out.println("END readFileWithBufferedReader ");
 		return linesList;
 	}
 
 	public List<String> readFileWithScaner() {
-		logger.info("START readFileWithScaner ");
+		System.out.println("START readFileWithScaner ");
 		try (Scanner scanner = new Scanner(new File(fileName))) {
 			while (scanner.hasNextLine()) {
 				linesList.add(scanner.nextLine());
@@ -139,7 +134,7 @@ public class FilesUtil {
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
-		logger.info("END readFileWithScaner ");
+		System.out.println("END readFileWithScaner ");
 		return linesList;
 	}
 

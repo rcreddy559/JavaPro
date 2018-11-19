@@ -1,4 +1,4 @@
-package com.emc;
+package com.org;
 
 public class AllInOneProgrames {
 	public static void main(String[] args) {

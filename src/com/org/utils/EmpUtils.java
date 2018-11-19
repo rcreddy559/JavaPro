@@ -4,7 +4,7 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Stream;
 
-import com.emc.exceptions.EducationException;
+import com.org.exceptions.EducationException;
 import com.org.models.EduEmployee;
 
 

@@ -1,4 +1,4 @@
-package com.org.emc.enumimpl;
+package com.org.enumimpl;
 
 public class MyDemoOnEnum {
 

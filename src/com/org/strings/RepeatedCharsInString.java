@@ -3,7 +3,6 @@ package com.org.strings;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class RepeatedCharsInString {
 

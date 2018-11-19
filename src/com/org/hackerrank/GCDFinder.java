@@ -1,4 +1,4 @@
-package com.org.java.algorithms;
+package com.org.hackerrank;
 
 
 public class GCDFinder {

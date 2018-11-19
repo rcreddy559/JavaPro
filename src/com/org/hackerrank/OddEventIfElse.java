@@ -1,4 +1,4 @@
-package com.org.hackerrank.ifelse;
+package com.org.hackerrank;
 
 import java.io.*;
 import java.math.*;

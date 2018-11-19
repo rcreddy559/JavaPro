@@ -1,4 +1,4 @@
-package com.emc.java8.defaultmethods;
+package com.org.java8.defaultmethods;
 
 public class Formula implements FormulaCalc {
 	public double calculate(int a) {

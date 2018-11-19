@@ -1,4 +1,4 @@
-package com.org.hackerrank.CountingValleys;
+package com.org.hackerrank;
 
 
 import java.io.IOException;

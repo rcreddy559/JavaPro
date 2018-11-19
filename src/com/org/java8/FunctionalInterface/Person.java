@@ -1,4 +1,4 @@
-package com.emc.java8.FunctionalInterface;
+package com.org.java8.FunctionalInterface;
 
 public class Person {
 

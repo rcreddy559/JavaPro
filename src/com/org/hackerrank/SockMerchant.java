@@ -1,4 +1,4 @@
-package com.org.hackerrank.SockMerchant;
+package com.org.hackerrank;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

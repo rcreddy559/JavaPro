@@ -1,4 +1,4 @@
-package com.emc.exceptions;
+package com.org.exceptions;
 
 import java.io.PrintStream;
 

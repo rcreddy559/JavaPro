@@ -1,4 +1,4 @@
-package com.emc.java8.BuiltInFunctionalInterface;
+package com.org.java8.BuiltInFunctionalInterface;
 
 import java.util.function.Supplier;
 

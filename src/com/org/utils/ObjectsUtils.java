@@ -16,13 +16,13 @@ public class ObjectsUtils {
 	public static List<Person> getPersions() {
 
 		List<Person> listOfPersions = new ArrayList<>(20);
-		listOfPersions.add(new Person("Mark ","Zuckerberg", 33, "M",00));
-		listOfPersions.add(new Person("Bill ","Gates", 62, "M",33));
-		listOfPersions.add(new Person("Marissa ","Mayer", 42, "F",333));
-		listOfPersions.add(new Person("Satya ","Nadella", 50, "M",44));
-		listOfPersions.add(new Person("Sundar"," Pichai", 45, "M",555));
-		listOfPersions.add(new Person("Sergey"," Brin", 44, "M",666));
-		listOfPersions.add(new Person("Larry"," Page", 45, "M",777));
+		listOfPersions.add(new Person("Mark ", "Zuckerberg", 33, "M", 00));
+		listOfPersions.add(new Person("Bill ", "Gates", 62, "M", 33));
+		listOfPersions.add(new Person("Marissa ", "Mayer", 42, "F", 333));
+		listOfPersions.add(new Person("Satya ", "Nadella", 50, "M", 44));
+		listOfPersions.add(new Person("Sundar", " Pichai", 45, "M", 555));
+		listOfPersions.add(new Person("Sergey", " Brin", 44, "M", 666));
+		listOfPersions.add(new Person("Larry", " Page", 45, "M", 777));
 
 		return listOfPersions;
 	}
@@ -62,6 +62,20 @@ public class ObjectsUtils {
 		return listOfIntegers;
 	}
 
+	public static List<String> getListOfString() {
+		List<String> listOfString = Arrays.asList("Arabic Names", "Breton Names", "Cosy Celtic ", "Cool Celtic",
+				"Clunky Celtic", "Cornish Names", "French Names", "Manx Names ", "Polish Names",
+				"Scandinavian Familiars", "Scandinavian Particulars", "Scandinavian Spectaculars", "Vibrant Russian",
+				"Diminutive Names", "Dulcet Dainties", "Funky Clunky", "Gothic Victoriana", "Guys and Dolls",
+				"Latinate Lovelies", "Lively Lads", "Long Lost Rarities", "Modern Antiquity", "Multi-Syllabic",
+				"Popular Biblical ", "Quirky Biblical", "Ripe Renovations", "Saintly and Stylish", "Short and Sweet ",
+				"Slickly Continental", "Slim Softies", "Upright Elegance", "Vintage", "Adoni", "Amaravati", "Anantapur",
+				"Chandragiri", "Chittoor", "Dowlaiswaram", "Eluru", "Guntur", "Kadapa", "Kakinada", "Kurnool",
+				"Machilipatnam", "Nagarjunakoṇḍa", "Rajahmundry", "Srikakulam", "Tirupati", "Vijayawada",
+				"Visakhapatnam", "Vizianagaram", "Yemmiganur");
+		return listOfString;
+	}
+
 	public static String[][] getDoubleArray() {
 		String[][] data = new String[][] { { "q", "w" }, { "e", "r" }, { "t", "y" }, { "u", "i" }, { "o", "p" },
 				{ "a", "s" }, { "d", "f" }, { "g", "h" }, { "j", "k" }, { "l", "z" }, { "z", "x" }, { "c", "v" },
@@ -79,8 +93,6 @@ public class ObjectsUtils {
 
 		return items;
 	}
-	
-	 
 
 	public static void main(String[] args) {
 		getListOfIntegers().forEach(i -> System.out.println(i));

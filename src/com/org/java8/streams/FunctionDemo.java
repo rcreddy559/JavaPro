@@ -8,6 +8,7 @@ import java.util.function.Function;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import java.util.stream.LongStream;
 
 public class FunctionDemo {
 
@@ -17,7 +18,7 @@ public class FunctionDemo {
 
 		List<Double> list = Arrays.asList(10D, 40D, 2D);
 //		demo(doubleNumber, list);
-		demo1();
+		demo3LongStream();
 
 	}
 
@@ -42,6 +43,13 @@ public class FunctionDemo {
 		for (Map.Entry<Object, Integer> e : m.entrySet()) {
 			System.out.println(e.getKey() + " : " + e.getValue());
 		}
+	}
+	
+	private static void demo3LongStream() {
+		LongStream longStream = LongStream.of(20,30,40,50,60);
+		IntStream intStream = longStream.mapToInt(i->(int)i);
+		intStream.forEach(System.out::println);
+		
 	}
 
 }

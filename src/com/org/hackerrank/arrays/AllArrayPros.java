@@ -1,4 +1,4 @@
-package com.org.arrays;
+package com.org.hackerrank.arrays;
 
 import java.util.Arrays;
 import java.util.HashMap;

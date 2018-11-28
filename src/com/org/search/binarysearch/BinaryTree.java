@@ -5,34 +5,34 @@ import com.org.search.binarysearch.Node;
 public class BinaryTree {
 	static Node root;
 	public static int[] array = new int[10];
-	public static int i=0;
+	public static int i = 0;
 	int treeSize = 0;
-	
-	BinaryTree(){
+
+	BinaryTree() {
 		this.root = null;
 	}
-	
+
 	private void addNode(int value) {
 		Node newNode = new Node(value);
-		
-		if(root == null) {
+
+		if (root == null) {
 			root = newNode;
 			return;
 		} else {
 			Node currentNode = root;
 			Node parentNode = null;
-			
-			while(true) {
+
+			while (true) {
 				parentNode = currentNode;
-				if(value < currentNode.data) {
+				if (value < currentNode.data) {
 					currentNode = currentNode.left;
-					if(currentNode == null) { 
+					if (currentNode == null) {
 						parentNode.left = newNode;
 						return;
 					}
 				} else {
 					currentNode = currentNode.right;
-					if(currentNode == null) {
+					if (currentNode == null) {
 						parentNode.right = newNode;
 						return;
 					}
@@ -41,11 +41,11 @@ public class BinaryTree {
 		}
 
 	}
+
 	protected void inorderTraversal(Node root2) {
-		// TODO Auto-generated method stub
-		if(root2 != null) {
+		if (root2 != null) {
 			inorderTraversal(root2.left);
-			System.out.print(" "+root2.data);
+			System.out.print(" " + root2.data);
 			array[i] = root2.data;
 			i++;
 			inorderTraversal(root2.right);

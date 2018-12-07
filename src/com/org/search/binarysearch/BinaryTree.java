@@ -52,6 +52,22 @@ public class BinaryTree {
 		}
 	}
 
+	Node reverse() {
+		Node pre = null;
+		Node current = root;
+		Node next = null;
+
+		while (current != null) {
+			next = current.right;
+			current.right = pre;
+			pre = current;
+			current = next;
+
+		}
+		current = pre;
+		return current;
+	}
+
 	public static void main(String[] args) {
 		BinaryTree b = new BinaryTree();
 		b.addNode(50);

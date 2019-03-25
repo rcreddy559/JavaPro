@@ -1,4 +1,4 @@
-package com.org.java8.FunctionalInterface;
+package com.org.java8.BuiltInFunctionalInterface;
 
 public class FunctionalInterfaceDemo {
 

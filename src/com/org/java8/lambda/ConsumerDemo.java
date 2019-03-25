@@ -29,7 +29,7 @@ public class ConsumerDemo {
 		Consumer<Integer> c3 = (Integer t) -> {
 				System.out.println(t);
 			}; 
-//		Consumer<Integer> c3 = i-> System.out.println(i);
+		Consumer<Integer> c4 = i-> System.out.println(i);
 		
 		
 		myList.forEach(c3);

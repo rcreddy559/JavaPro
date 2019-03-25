@@ -1,4 +1,4 @@
-package com.org.java8.lambda.methodreferance;
+package com.org.java8.methodreferance;
 
 import java.util.List;
 import java.util.function.Consumer;

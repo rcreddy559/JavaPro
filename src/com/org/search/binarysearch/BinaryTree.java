@@ -1,9 +1,7 @@
 package com.org.search.binarysearch;
 
-import com.org.search.binarysearch.Node;
-
 public class BinaryTree {
-	static Node root;
+	private Node root;
 	public static int[] array = new int[10];
 	public static int i = 0;
 	int treeSize = 0;
@@ -79,6 +77,6 @@ public class BinaryTree {
 		b.addNode(90);
 		b.addNode(30);
 		b.addNode(70);
-		b.inorderTraversal(root);
+		b.inorderTraversal(b.root);
 	}
 }

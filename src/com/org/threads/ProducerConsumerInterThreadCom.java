@@ -1,13 +1,12 @@
 package com.org.threads;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Vector;
 
 public class ProducerConsumerInterThreadCom {
 
 	public static void main(String[] args) {
 
-		List<Integer> sharedList = new ArrayList<>();
+		Vector<Integer> sharedList = new Vector<Integer>();
 		int MAX_SIZE = 1;
 		Thread t1 = new Thread(new MyProducer(sharedList, MAX_SIZE));
 		Thread t2 = new Thread(new MyConsumer(sharedList, MAX_SIZE));
@@ -18,11 +17,11 @@ public class ProducerConsumerInterThreadCom {
 }
 
 class MyProducer implements Runnable {
-	List<Integer> sharedList = null;
+	Vector<Integer> sharedList = null;
 	int MAX_SIZE;
 	int i = 0;
 
-	public MyProducer(List<Integer> list, int max) {
+	public MyProducer(Vector<Integer> list, int max) {
 		this.sharedList = list;
 		this.MAX_SIZE = max;
 	}
@@ -56,10 +55,10 @@ class MyProducer implements Runnable {
 }
 
 class MyConsumer implements Runnable {
-	List<Integer> sharedList = null;
+	Vector<Integer> sharedList = null;
 	int MAX_SIZE;
 
-	public MyConsumer(List<Integer> list, int max) {
+	public MyConsumer(Vector<Integer> list, int max) {
 		this.sharedList = list;
 		this.MAX_SIZE = max;
 	}

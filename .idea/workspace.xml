@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aab983b3-dc99-48c4-92a2-26645545f24b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/org/hackerrank/JavaIfElse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/org/hackerrank/StdinStdout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/org/hackerrank/java/JavaForLoop2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/org/hackerrank/java/EndOfFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/org/hackerrank/java/JavaDatatypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/org/hackerrank/java/PrinrdDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaPro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/OddEventIfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/OddEventIfElse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +50,53 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Application.JavaForLoop2">
+  <component name="RunManager" selected="Application.EndOfFile">
+    <configuration name="EndOfFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.org.hackerrank.java.EndOfFile" />
+      <module name="JavaPro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.org.hackerrank.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaDatatypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.org.hackerrank.java.JavaDatatypes" />
+      <module name="JavaPro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.org.hackerrank.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaForLoop2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.org.hackerrank.java.JavaForLoop2" />
+      <module name="JavaPro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.org.hackerrank.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrinrdDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.org.hackerrank.java.PrinrdDemo" />
       <module name="JavaPro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -107,6 +147,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EndOfFile" />
+        <item itemvalue="Application.JavaDatatypes" />
+        <item itemvalue="Application.PrinrdDemo" />
         <item itemvalue="Application.JavaForLoop2" />
         <item itemvalue="Application.StdinStdout" />
       </list>
@@ -123,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1528724695540</updated>
       <workItem from="1528724706469" duration="31000" />
-      <workItem from="1590847423175" duration="2978000" />
+      <workItem from="1590847423175" duration="5710000" />
     </task>
     <servers />
   </component>
@@ -139,26 +182,26 @@
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2571" y="123" width="779" height="827" key="DiffContextDialog/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590847927884" />
-    <state width="1222" height="280" key="GridCell.Tab.0.bottom" timestamp="1590850445979">
+    <state width="1222" height="280" key="GridCell.Tab.0.bottom" timestamp="1590859524319">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1222" height="280" key="GridCell.Tab.0.bottom/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590850445979" />
-    <state width="1222" height="280" key="GridCell.Tab.0.center" timestamp="1590850445978">
+    <state width="1222" height="280" key="GridCell.Tab.0.bottom/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590859524319" />
+    <state width="1222" height="280" key="GridCell.Tab.0.center" timestamp="1590859524318">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1222" height="280" key="GridCell.Tab.0.center/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590850445978" />
-    <state width="1222" height="280" key="GridCell.Tab.0.left" timestamp="1590850445977">
+    <state width="1222" height="280" key="GridCell.Tab.0.center/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590859524318" />
+    <state width="1222" height="280" key="GridCell.Tab.0.left" timestamp="1590859524317">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1222" height="280" key="GridCell.Tab.0.left/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590850445977" />
-    <state width="1222" height="280" key="GridCell.Tab.0.right" timestamp="1590850445978">
+    <state width="1222" height="280" key="GridCell.Tab.0.left/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590859524317" />
+    <state width="1222" height="280" key="GridCell.Tab.0.right" timestamp="1590859524318">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1222" height="280" key="GridCell.Tab.0.right/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590850445978" />
-    <state x="2498" y="293" width="639" height="486" key="find.popup" timestamp="1590849448240">
+    <state width="1222" height="280" key="GridCell.Tab.0.right/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590859524318" />
+    <state x="2498" y="293" width="639" height="486" key="find.popup" timestamp="1590857706971">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state x="2498" y="293" width="639" height="486" key="find.popup/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590849448240" />
+    <state x="2498" y="293" width="639" height="486" key="find.popup/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590857706971" />
     <state x="2483" y="250" key="search.everywhere.popup" timestamp="1590848576091">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>

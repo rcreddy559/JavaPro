@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aab983b3-dc99-48c4-92a2-26645545f24b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/org/Heo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/org/hackerrank/InterviewPreparationKit/JumpingOnTheClouds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,6 +178,7 @@
       <workItem from="1528724706469" duration="31000" />
       <workItem from="1590847423175" duration="5710000" />
       <workItem from="1596816356686" duration="7274000" />
+      <workItem from="1596897652551" duration="294000" />
     </task>
     <servers />
   </component>
@@ -223,6 +219,10 @@
     <state width="1222" height="280" key="GridCell.Tab.0.right/1680.23.1920.1057/47.23.1633.1027@1680.23.1920.1057" timestamp="1596823452506" />
     <state width="1222" height="280" key="GridCell.Tab.0.right/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590859524318" />
     <state width="1222" height="280" key="GridCell.Tab.0.right/45.23.1635.1027@45.23.1635.1027" timestamp="1596872038343" />
+    <state x="384" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1596897656023">
+      <screen x="57" y="25" width="1623" height="1025" />
+    </state>
+    <state x="384" y="366" key="com.intellij.ide.util.TipDialog/1680.25.1920.1055/57.25.1623.1025@57.25.1623.1025" timestamp="1596897656023" />
     <state x="2498" y="293" width="639" height="486" key="find.popup" timestamp="1590857706971">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>

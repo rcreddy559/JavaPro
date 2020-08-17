@@ -1,5 +1,7 @@
 package com.org.hackerrank;
 
+
+import java.util.Arrays;
 import java.util.stream.IntStream;
 
 public class FizzBuzz {
@@ -8,6 +10,7 @@ public class FizzBuzz {
 		final int range = 100;
 //		pringFizzBuzz(range);
 		pringFizzBuzzJava8(range);
+
 	}
 
 	private static void pringFizzBuzzJava8(int range) {

@@ -31,7 +31,7 @@ public class MinimumDistances {
         Map<Integer, Integer> map=new HashMap<>();
         int value = 0;
 
-        for(int i=0;i<a.length-1;i++) {
+        for(int i=0;i<a.length;i++) {
             if(map.get(a[i]) != null &&
                     minDist > (i-(value = map.get(a[i])))){
                 minDist=(i-value);

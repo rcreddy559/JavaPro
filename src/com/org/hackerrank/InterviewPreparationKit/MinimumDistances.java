@@ -45,7 +45,7 @@ public class MinimumDistances {
     public static void main(String[] args) {
         int [][]arr = {{7,1,3,4,1,7}, {1,1}, {3,2,1,2,3},{}};
 
-        for(int a[]: arr) {
+        for(int[] a : arr) {
             System.out.println(Arrays.toString(a));
             System.out.println("a: "+minimumDistances(a));
             System.out.println("b: "+minimumDistancesKrishna(a));

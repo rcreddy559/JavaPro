@@ -13,7 +13,7 @@ public class BubbleSort {
 
 	// Optimized Bubble sort
 	private static void demo2() {
-		int arr[] = { 2, 5, -2, 6, -3, 8, 0, -7, -9, 4 };
+		int[] arr = { 2, 5, -2, 6, -3, 8, 0, -7, -9, 4 };
 		System.out.println(Arrays.toString(arr));
 		int temp;
 		int n = arr.length;
@@ -40,7 +40,7 @@ public class BubbleSort {
 
 	// Normal Bubble sort
 	static void demo1() {
-		int arr[] = { 2, 5, -2, 6, -3, 8, 0, -7, -9, 4 };
+		int[] arr = { 2, 5, -2, 6, -3, 8, 0, -7, -9, 4 };
 		System.out.println(Arrays.toString(arr));
 		int temp;
 		int n = arr.length;

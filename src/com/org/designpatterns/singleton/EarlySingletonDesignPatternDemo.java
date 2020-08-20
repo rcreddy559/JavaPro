@@ -9,7 +9,7 @@ public class EarlySingletonDesignPatternDemo {
 }
 
 class DataBaseConnection {
-	private static DataBaseConnection dbc = new DataBaseConnection();
+	private static final DataBaseConnection dbc = new DataBaseConnection();
 
 	private DataBaseConnection() {
 	}

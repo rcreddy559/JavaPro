@@ -14,9 +14,9 @@ public class PrintEvenOdd {
 }
 
 class TaskEvenOdd implements Runnable {
-	private int max;
-	private Printer print;
-	private boolean isEvenNumber;
+	private final int max;
+	private final Printer print;
+	private final boolean isEvenNumber;
 
 	TaskEvenOdd(Printer print, int max, boolean isEvenNumber) {
 		this.print = print;

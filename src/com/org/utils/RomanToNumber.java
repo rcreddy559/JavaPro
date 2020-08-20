@@ -53,7 +53,7 @@ public class RomanToNumber {
 	}
 
 	// Driver method
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		RomanToNumber ob = new RomanToNumber();
 
 		// Considering inputs given are valid

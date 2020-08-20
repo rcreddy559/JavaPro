@@ -24,7 +24,7 @@ public class MethodReferanceExample {
 
 @FunctionalInterface
 interface Germany {
-	public void printName();
+	void printName();
 }
 
 class Berlin implements Germany {

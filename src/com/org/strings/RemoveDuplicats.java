@@ -8,7 +8,7 @@ public class RemoveDuplicats {
 		int res_ind = 1, ip_ind = 1;
 
 		// Character array for removal of duplicate characters
-		char arr[] = str.toCharArray();
+		char[] arr = str.toCharArray();
 
 		/* In place removal of duplicate characters */
 		while (ip_ind != arr.length) {

@@ -55,7 +55,7 @@ public class Java8MapDemo {
 			public boolean test(String t) {
 				System.out.println("test " + t);
 				return t.length() > 12;
-			};
+			}
 		}).collect(Collectors.toList());
 		names.forEach(System.out::println);
 	}

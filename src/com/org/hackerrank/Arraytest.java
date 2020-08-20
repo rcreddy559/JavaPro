@@ -12,7 +12,7 @@ public class Arraytest {
 
         int rowLen = arr.get(0);
         int noOfRows  = (arr.size()-1)/rowLen;
-        int newArray[][] = new int[noOfRows][rowLen];
+        int[][] newArray = new int[noOfRows][rowLen];
 
         int rowLenCount = 1;
 
@@ -22,7 +22,7 @@ public class Arraytest {
             }
         }
 
-        int result[] = new int[queries.size()] ;
+        int[] result = new int[queries.size()] ;
         int resultCount = 0;
 
         for(int i=0;i<queries.size();i++){

@@ -16,7 +16,7 @@ public class AllArrayPros {
 	int[] array1 = {1,2,3,4,6};
     
     
-	public static void findMissingNumber(int newArray[]){
+	public static void findMissingNumber(int[] newArray){
 
         final int arrayLength = newArray.length+1;
         final int expectedTotal = (arrayLength*(arrayLength+1))/2;
@@ -78,9 +78,7 @@ public class AllArrayPros {
 		Set<Integer> unique = new HashSet<>();
 		
 		for(int i: withDuplicates) {
-			if(!unique.contains(i)) {
-				unique.add(i);
-			}
+			unique.add(i);
 		}
 		
 		System.out.println(unique.toString());
@@ -88,12 +86,8 @@ public class AllArrayPros {
 	}
 	private boolean isPrimeNumber(int numebr1) {
 		int number = 10;
-		if(number ==2 || number == 3) {
-			return true;
-		}
+		return number == 2 || number == 3;
 //		if()
-		
-		return false;
 	}
 	
 }

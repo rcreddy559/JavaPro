@@ -2,7 +2,7 @@ package com.org.java8.defaultmethods;
 
  interface DemoDefaultMethods {
 
-	public void print();
+	void print();
 	default void showMe() {
 		System.out.println(" showMe is default method in Interface!");
 	}
@@ -10,7 +10,7 @@ package com.org.java8.defaultmethods;
  
  interface DemoDefaultMethods2 {
 
-	public void print();
+	void print();
 	default void showMe() {
 		System.out.println(" showMe is default method in Interface!");
 	}

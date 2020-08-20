@@ -11,7 +11,7 @@ public class TheLongestIncreasingSubsequence {
          * Method: For each item, look at the previous items and update count
          */
         int n = arr.length;
-        int mem[] = new int[n];
+        int[] mem = new int[n];
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < n; i++){
             mem[i] = 1;
@@ -45,8 +45,8 @@ public class TheLongestIncreasingSubsequence {
                 }
             }
         }
-    };
-    
+    }
+
     static int findLISFast(int[] arr){
         /*
          * This method runs in O(n * log(n)) time and O(n) memory
@@ -72,7 +72,7 @@ public class TheLongestIncreasingSubsequence {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-        int arr[] = new int[n];
+        int[] arr = new int[n];
         for(int i = 0; i < n; i++){
             arr[i] = in.nextInt();
         }

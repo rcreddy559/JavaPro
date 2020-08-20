@@ -7,7 +7,7 @@ public class SubsetSumProblem {
 
 	// Returns true if there is a subset
 	// of set[] with sum equal to given sum
-	static boolean isSubsetSum(int set[], int n, int sum) {
+	static boolean isSubsetSum(int[] set, int n, int sum) {
 		// Base Cases
 		if (sum == 0)
 			return true;
@@ -27,8 +27,8 @@ public class SubsetSumProblem {
 	}
 
 	/* Driver program to test above function */
-	public static void main(String args[]) {
-		int set[] = { 3, 34, 4, 12, 5, 2 };
+	public static void main(String[] args) {
+		int[] set = { 3, 34, 4, 12, 5, 2 };
 		int sum = 9;
 		int n = set.length;
 		if (isSubsetSum(set, n, sum) == true)

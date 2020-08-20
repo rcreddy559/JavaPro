@@ -11,7 +11,7 @@ public enum WhoisRIR {
 	    CNNIC("ipwhois.cnnic.cn"),
 	    UNKNOWN("");
 	
-		private String url;
+		private final String url;
 		WhoisRIR(String nameUrl){
 			this.url = nameUrl;
 		}

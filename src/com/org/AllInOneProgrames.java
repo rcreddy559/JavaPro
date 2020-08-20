@@ -2,7 +2,7 @@ package com.org;
 
 public class AllInOneProgrames {
 	public static void main(String[] args) {
-        int arr[] = {  23, 47, 81, 92, 88, 52, 48, 56, 66, 65, 76, 71, 85, 100,
+        int[] arr = {  23, 47, 81, 92, 88, 52, 48, 56, 66, 65, 76, 71, 85, 100,
                      49, 53, 56, 61, 65, 84, 1 };
         secondLargeNumber(arr);
         printNumbers(insertionSort(arr));
@@ -75,7 +75,7 @@ public class AllInOneProgrames {
 	static int[] fib(int n)
 	{
 	  /* Declare an array to store fibonacci numbers. */
-	  int f[] = new int[n+1];
+	  int[] f = new int[n+1];
 	  int i;
 
 	  /* 0th and 1st number of the series are 0 and 1*/
@@ -129,7 +129,7 @@ public class AllInOneProgrames {
 			return result;
 		}
 	 
-	 public static int[] insertionSort(int array[]) {
+	 public static int[] insertionSort(int[] array) {
 			int n = array.length;
 			for (int j = 1; j < n; j++) {
 				int key = array[j];

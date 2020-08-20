@@ -9,7 +9,7 @@ public class StringSorting {
     public static String sortString(String inputString) 
     { 
         // convert input string to char array 
-        char tempArray[] = inputString.toCharArray(); 
+        char[] tempArray = inputString.toCharArray();
           
         // sort tempArray 
         Arrays.sort(tempArray); 
@@ -21,7 +21,7 @@ public class StringSorting {
 	// Method to sort a mixed string
 	public static String sortStringWithComparator(String inputString) {
 		// convert input string to Character array
-		Character tempArray[] = new Character[inputString.length()];
+		Character[] tempArray = new Character[inputString.length()];
 		for (int i = 0; i < inputString.length(); i++) {
 			tempArray[i] = inputString.charAt(i);
 		}

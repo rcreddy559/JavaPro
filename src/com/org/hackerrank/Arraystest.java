@@ -23,7 +23,7 @@ class Result {
 
         int rowLen = arr.get(0);
         int noOfRows  = arr.size()-1/rowLen;
-        int newArray[][] = new int[noOfRows][rowLen];
+        int[][] newArray = new int[noOfRows][rowLen];
         int rowLenCount = 1;
         for(int i=0;i<noOfRows;i++) {
             for(int j=1;j<rowLen;j++) {
@@ -31,7 +31,7 @@ class Result {
             }
         }
 
-        int result[] = new int[queries.size()] ;
+        int[] result = new int[queries.size()] ;
         int resultCount = 0;
         for(int i=0;i<queries.size();i++){
             List<Integer> innerQueries = queries.get(i);

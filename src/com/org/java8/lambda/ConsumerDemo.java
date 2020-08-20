@@ -21,8 +21,8 @@ public class ConsumerDemo {
 		ConsImpl c2 = new ConsImpl() {
 			public void accept(Integer t) {
 				System.out.println(t);
-			}; 
-		};
+			}
+        };
 		myList.forEach(c2);
 		
 		// 2

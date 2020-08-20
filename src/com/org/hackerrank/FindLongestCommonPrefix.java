@@ -3,7 +3,7 @@ package com.org.hackerrank;
 public class FindLongestCommonPrefix {
 	// A Function to find the string having the
 	// minimum length and returns that length
-	static int findMinLength(String arr[], int n) {
+	static int findMinLength(String[] arr, int n) {
 		int min = Integer.MAX_VALUE;
 		for (int i = 0; i <= (n - 1); i++) {
 			if (arr[i].length() < min) {
@@ -13,7 +13,7 @@ public class FindLongestCommonPrefix {
 		return min;
 	}
 
-	static boolean allContainsPrefix(String arr[], int n, String str, int start, int end) {
+	static boolean allContainsPrefix(String[] arr, int n, String str, int start, int end) {
 		for (int i = 0; i <= (n - 1); i++) {
 			String arr_i = arr[i];
 
@@ -26,7 +26,7 @@ public class FindLongestCommonPrefix {
 
 	// A Function that returns the longest common prefix
 	// from the array of strings
-	static String commonPrefix(String arr[], int n) {
+	static String commonPrefix(String[] arr, int n) {
 		int index = findMinLength(arr, n);
 		String prefix = ""; // Our resultant string
 
@@ -58,8 +58,8 @@ public class FindLongestCommonPrefix {
 	}
 
 	// Driver program to test above function
-	public static void main(String args[]) {
-		String arr[] = { "geeksforgeeks", "geeks", "geek", "geezer" };
+	public static void main(String[] args) {
+		String[] arr = { "geeksforgeeks", "geeks", "geek", "geezer" };
 		int n = arr.length;
 
 		String ans = commonPrefix(arr, n);

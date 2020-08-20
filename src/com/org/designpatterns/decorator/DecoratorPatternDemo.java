@@ -10,9 +10,9 @@ public class DecoratorPatternDemo {
 }
 
 interface Food {
-	public String prepareFood();
+	String prepareFood();
 
-	public double getPrice();
+	double getPrice();
 }
 
 class VegFood implements Food {

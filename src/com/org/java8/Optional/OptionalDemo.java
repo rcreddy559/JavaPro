@@ -6,7 +6,7 @@ import java.util.Optional;
 
 public class OptionalDemo {
 
-	private static List<String> booksList = Arrays.asList("Effective Java", "Clean Code", "Test Driven");
+	private static final List<String> booksList = Arrays.asList("Effective Java", "Clean Code", "Test Driven");
 
 	private String getbook(String value) {
 		String bookName = null;

@@ -7,6 +7,35 @@ public class Employee {
 	private String gender;
 	private String firstName;
 	private String lastName;
+	private Double salary;
+	private String department;
+
+	public Employee(Integer id, Double salary, String department) {
+		super();
+		this.id = id;
+		this.salary = salary;
+		this.department = department;
+	}
+	public String getDepartment() {
+		return department;
+	}
+
+	public void setDepartment(String department) {
+		this.department = department;
+	}
+
+	public Double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(Double salary) {
+		this.salary = salary;
+	}
+
+	public static Employee of(Integer id, Double salary, String department) {
+		return new Employee(id, salary, department);
+	}
+
 	public Employee(Integer id, Integer age, String gender, String firstName, String lastName) {
 		super();
 		this.id = id;
@@ -45,10 +74,13 @@ public class Employee {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", age=" + age + ", gender=" + gender + ", firstName=" + firstName + ", lastName="
-				+ lastName + "]";
+		return "Employee{" +
+				"id=" + id +
+				", salary=" + salary +
+				", department='" + department + '\'' +
+				'}';
 	}
-	
 }

@@ -18,7 +18,6 @@ public class EmpUtils {
 	}
 	
 	public Set<EduEmployee> getEmployees() {
-		
 		return employees;
 	}
 	
@@ -33,10 +32,10 @@ public class EmpUtils {
 		try {
 			employeeOptional = s.findFirst();
 			employee = employeeOptional.get();
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
 		return employee;
 	}
 
@@ -51,11 +50,8 @@ public class EmpUtils {
 		 } else {
 			 throw new EducationException("Employee Exits; "+employee.toString());
 		 }
-		
 	}
-
 	public boolean update(EduEmployee employee) {
 		return employees.add(employee);
 	}
-
 }

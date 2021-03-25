@@ -1,18 +1,58 @@
 package com.org.hackerrank;
 
+import java.util.Arrays;
+
 public class PalindromeFinder {
 
     public static void main(String[] args) {
-        System.out.println(longestPalindromeString("1234"));
-        System.out.println(longestPalindromeString("12321"));
-        System.out.println(longestPalindromeString("9912321456"));
-        System.out.println(longestPalindromeString("9912333321456"));
-        System.out.println(longestPalindromeString("12145445499"));
-        System.out.println(longestPalindromeString("1223213"));
-        System.out.println(longestPalindromeString("abb"));
+//        System.out.println(longestPalindromeString("1234"));
+//        System.out.println(longestPalindromeString("12321"));
+//        System.out.println(longestPalindromeString("9912321456"));
+//        System.out.println(longestPalindromeString("9912333321456"));
+//        System.out.println(longestPalindromeString("12145445499"));
+//        System.out.println(longestPalindromeString("1223213"));
+//        System.out.println(longestPalindromeString("abb"));
+
+        System.out.println(isPalindrome("testset"));
+        System.out.println(isPalindrome(12321));
     }
 
-    static public String intermediatePalindrome(String s, int left, int right) {
+    public static boolean isPalindrome(String value) {
+        if(value == null || value.length() == 0 || value.equalsIgnoreCase(" "))
+            return false;
+
+        return reverse(value).equalsIgnoreCase(value);
+    }
+
+    public static boolean isPalindrome(int value) {
+        if(value == 0 || value < 0)
+            return false;
+
+        return value == reverse(value);
+    }
+    public static String reverse(String value) {
+        char[] arr = value.toCharArray();
+        int n = arr.length-1;
+        for(int i=0;i<n/2;i++) {
+            char tmp = arr[i];
+            arr[i] = arr[n-i];
+            arr[n-i] = tmp;
+        }
+        return new String(arr);
+    }
+
+    public static int reverse(int value) {
+        int n = value;
+        int rev = 0;
+
+        while (n > 0) {
+            int rm = n %10;
+            rev = rev *10 + rm;
+            n = n/10;
+        }
+        return rev;
+    }
+    public static String intermediatePalindrome(String s, int left, int right) {
         if (left > right) return null;
         while (left >= 0 && right < s.length()
                 && s.charAt(left) == s.charAt(right)) {

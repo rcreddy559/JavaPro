@@ -73,11 +73,11 @@ public class ObjectsUtils {
 		List<Employee> empList = new ArrayList<>();
 		for (int i = 50; i > 0; i--) {
 			int age = random.nextInt(50);
-			empList.add(new Employee(i, age, age % 2 == 0 ? "Male" : "Femal", "Firest Name" + age, age + "last Name"));
+			empList.add(new Employee(i, age, age % 2 == 0 ? "Male" : "Female", "Firest Name" + age, age + "last Name"));
 		}
-		empList.add(new Employee(100, 5, "Femal", "Divija", "Reddy"));
-		empList.add(new Employee(101, 5, "Femal", "Divija", "Penumuru"));
-		empList.add(new Employee(102, 5, "Femal", "Divija", "p"));
+		empList.add(new Employee(100, 5, "Female", "Divija", "Reddy"));
+		empList.add(new Employee(101, 5, "Female", "Divija", "Penumuru"));
+		empList.add(new Employee(102, 5, "Female", "Divija", "p"));
 		return empList;
 	}
 

@@ -2,7 +2,10 @@ package com.org.strings;
 
 public class StringInternDemo {
 
-	public static void main(String[] args) {
+        public static void main(String[] args) {
+                demo();
+        }
+	 static void demo() {
         String s1 = "Test";
         String s2 = "Test";
         String s3 = "Test";

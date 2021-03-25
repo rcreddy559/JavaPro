@@ -12,5 +12,12 @@ public class SupplierDemo {
 		
 		System.out.println(fordCarProvider.get().toString());
 		System.out.println(bmwCarProvider.get().toString());
+
+		Square square = x -> x*x;
+		System.out.println(square.calculate(10));
 	}
+}
+@FunctionalInterface
+interface Square {
+	int calculate(int x);
 }

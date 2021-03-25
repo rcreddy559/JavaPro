@@ -14,8 +14,9 @@ import java.util.stream.Stream;
 public class IODemo {
 
 	public static void main(String[] args) {
-		String fileName = "ReadMe.txt";
-		 readiFile(fileName);
+		String fileName = "/Users/ravi/Documents/GitHub/JavaPro/src/com/org/java8/io/PortFolioEqtSummary.csv";
+//		String fileName = "./PortFolioEqtSummary.csv";
+		 readFile(fileName);
 		// readiFileMap(fileName);
 		// readFileJava7(fileName);
 	}
@@ -33,7 +34,7 @@ public class IODemo {
 		
 	}
 
-	private static void readiFile(String fileName) {
+	private static void readFile(String fileName) {
 		try (Stream<String> stream = Files.lines(Paths.get(fileName))) {
 
 			// stream.forEach(System.out::println);

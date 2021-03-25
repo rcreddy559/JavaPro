@@ -6,12 +6,23 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class AllArrayPros {
 	
 	public static void main(String[] args) {
-		findDuplicates();
+//		findDuplicates();
+
+//		System.out.println(isPrimeNumber(100));
+//		IntStream.range(1, 100).forEach(value-> {
+//			if(isPrimeNumber(value))
+//				System.out.println(value);
+//		});
+
+//		System.out.println(findFactorial(4));
+		findFibonacci(10);
 	}
+
 
 	int[] array1 = {1,2,3,4,6};
     
@@ -84,10 +95,31 @@ public class AllArrayPros {
 		System.out.println(unique.toString());
 
 	}
-	private boolean isPrimeNumber(int numebr1) {
-		int number = 10;
-		return number == 2 || number == 3;
-//		if()
+	private static boolean isPrimeNumber(int value) {
+	 	if(value == 0 || value == 1)
+	 		 return false;
+
+	 	for(int i =2;i<value/2;i++) {
+	 		if(value % i ==0)
+	 			return false;
+		}
+	 	return true;
 	}
-	
+
+	static int findFactorial(int value) {
+		if(value == 0)
+			return 1;
+		return (value*findFactorial(value-1));
+	}
+
+	static void findFibonacci(int value) {
+		int v1 = 0,v2 = 1,v3;
+		System.out.print(v1+" "+v2+" ");
+		for(int i=2;i<value;i++) {
+			v3 = v1+v2;
+			System.out.print(v3+" ");
+			v1 = v2;
+			v2 = v3;
+		}
+	}
 }

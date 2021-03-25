@@ -6,12 +6,15 @@ public class DecoratorPatternDemo {
 		Food myOrderFood = new NonVegFood(new ChineesFood(food));
 		System.out.println(myOrderFood.getPrice());
 		System.out.println(myOrderFood.prepareFood());
+
+		Food palakPanner = new PalakPanner(myOrderFood);
+		System.out.println(palakPanner.getPrice());
+		System.out.println(palakPanner.prepareFood());
 	}
 }
 
 interface Food {
 	String prepareFood();
-
 	double getPrice();
 }
 
@@ -27,11 +30,11 @@ class VegFood implements Food {
 	}
 }
 
-class FoodDecotator implements Food {
+
+class FoodDecorator implements Food {
 	Food food;
 
-	public FoodDecotator(Food food) {
-
+	public FoodDecorator(Food food) {
 		this.food = food;
 	}
 
@@ -46,23 +49,25 @@ class FoodDecotator implements Food {
 	}
 }
 
-class NonVegFood extends FoodDecotator {
+
+
+class NonVegFood extends FoodDecorator {
 	public NonVegFood(Food food) {
 		super(food);
 	}
 
 	@Override
 	public double getPrice() {
-		return super.getPrice();
+		return super.getPrice() + 50D;
 	}
 
 	@Override
 	public String prepareFood() {
-		return super.prepareFood() + "With Roasted Chiken and Chiken Curry";
+		return super.prepareFood() + " With Roasted Chicken and Chicken Curry";
 	}
 }
 
-class ChineesFood extends FoodDecotator {
+class ChineesFood extends FoodDecorator {
 	public ChineesFood(Food food) {
 		super(food);
 	}
@@ -74,6 +79,24 @@ class ChineesFood extends FoodDecotator {
 
 	@Override
 	public String prepareFood() {
-		return super.prepareFood() + " With Fried Rice and Manchurian  ";
+		return super.prepareFood() + " With Fried Rice and Manchurian  ";
+	}
+}
+
+
+class PalakPanner extends FoodDecorator {
+
+	public PalakPanner(Food food) {
+		super(food);
+	}
+
+	@Override
+	public double getPrice() {
+		return super.getPrice() + 100D;
+	}
+
+	@Override
+	public String prepareFood() {
+		return super.prepareFood() + " With Palak Panner";
 	}
 }

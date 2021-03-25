@@ -14,7 +14,7 @@ public class StaticInnerCalssDemo {
 		}
 	}
 
-	class MyInner {
+	static class MyInner {
 		MyInner() {
 
 		}

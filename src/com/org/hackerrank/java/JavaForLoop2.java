@@ -10,10 +10,12 @@ public class JavaForLoop2 {
             int a = in.nextInt();
             int b = in.nextInt();
             int n = in.nextInt();
+
             for(int j=0;j< n;j++ ) {
                 a +=b * (int)Math.pow(2, j);
                 System.out.print(a+" ");
             }
+
             System.out.println();
         }
         in.close();

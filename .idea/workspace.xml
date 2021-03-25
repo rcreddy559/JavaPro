@@ -1,8 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="aab983b3-dc99-48c4-92a2-26645545f24b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/org/java8/streams/FindDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/org/java8/streams/FlatMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/org/java8/streams/PeekDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/org/java8/streams/StatisticsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/org/oops/abstraction/AbstractionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/DemoStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/DemoStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/clone/CloneDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/clone/CloneDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/designpatterns/decorator/DecoratorPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/designpatterns/decorator/DecoratorPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/designpatterns/factory/FactoryDesignPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/designpatterns/factory/FactoryDesignPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/designpatterns/singleton/LazySingletonDesignPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/designpatterns/singleton/LazySingletonDesignPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/enumimpl/MyDemoOnEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/enumimpl/MyDemoOnEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/generic/UserName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/generic/UserName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/generic/UserNameMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/generic/UserNameMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/Demo6nomads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/Demo6nomads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/InterviewPreparationKit/MinimumSwaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/InterviewPreparationKit/MinimumSwaps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/MaxMinArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/MaxMinArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/PalindromeFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/PalindromeFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/StringTokenSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/StringTokenSplit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/arrays/AllArrayPros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/arrays/AllArrayPros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/arrays/NewYearChaos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/arrays/NewYearChaos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/arrays/SortingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/arrays/SortingArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/java/JavaForLoop2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/java/JavaForLoop2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/java/Quadruplets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/java/Quadruplets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/harman/GroupSimilarStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/harman/GroupSimilarStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/harman/SimilarStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/harman/SimilarStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/innerclass/StaticInnerCalssDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/innerclass/StaticInnerCalssDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java10/LocalVarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java10/LocalVarDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java8/BuiltInFunctionalInterface/SupplierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/BuiltInFunctionalInterface/SupplierDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java8/StringJoinerImpl/StringJoinerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/StringJoinerImpl/StringJoinerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java8/collectors/CustomCollectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/collectors/CustomCollectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java8/dateandtime/CalculateWeekDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/dateandtime/CalculateWeekDays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java8/defaultmethods/DemoDefaultImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/defaultmethods/DemoDefaultImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java8/io/IODemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/io/IODemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java8/methodreferance/FunctionalInterfaceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/methodreferance/FunctionalInterfaceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java8/methodreferance/MethodReferanceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/methodreferance/MethodReferanceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java8/streams/FirstDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/streams/FirstDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java8/streams/FrequentlyAskedInterviewQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/streams/FrequentlyAskedInterviewQuestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java8/streams/reduce/ReduceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/streams/reduce/ReduceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java9/AnonymousClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java9/AnonymousClasses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java9/FactoryMethodsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java9/FactoryMethodsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java9/PrivateInterfaceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java9/PrivateInterfaceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java9/SafeVarargs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java9/SafeVarargs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java9/StreamAPIImprovement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java9/StreamAPIImprovement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java9/StreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java9/StreamExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java9/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java9/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/java9/TryWithResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java9/TryWithResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/strings/StringInternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/strings/StringInternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/threads/VolatileVsAtomicInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/threads/VolatileVsAtomicInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/utils/EmpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/utils/EmpUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/utils/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/utils/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/utils/FilesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/utils/FilesUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/utils/ObjectsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/utils/ObjectsUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/wildcard/WildcardDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/wildcard/WildcardDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +78,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="module-info" />
+        <option value="Kotlin Class" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -22,12 +88,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-desktop" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="s3gqhho3" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -41,35 +115,49 @@
     <option name="autoscrollToSource" value="true" />
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ignore.preview.features.used" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/org/threads" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.JumpingOnTheClouds">
-    <configuration name="EndOfFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.org.hackerrank.java.EndOfFile" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/org/threads" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/com/org/java8/io" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AbstractionDemo">
+    <configuration name="AbstractionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.org.oops.abstraction.AbstractionDemo" />
       <module name="JavaPro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.org.hackerrank.java.*" />
+          <option name="PATTERN" value="com.org.oops.abstraction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,13 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Heo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.org.Heo" />
+    <configuration name="PeekDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.org.java8.streams.PeekDemo" />
       <module name="JavaPro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.org.*" />
+          <option name="PATTERN" value="com.org.java8.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,13 +179,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaDatatypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.org.hackerrank.java.JavaDatatypes" />
+    <configuration name="ReduceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.org.java8.streams.reduce.ReduceDemo" />
       <module name="JavaPro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.org.hackerrank.java.*" />
+          <option name="PATTERN" value="com.org.java8.streams.reduce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,13 +193,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpingOnTheClouds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.org.hackerrank.InterviewPreparationKit.JumpingOnTheClouds" />
+    <configuration name="StatisticsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.org.java8.streams.StatisticsDemo" />
       <module name="JavaPro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.org.hackerrank.InterviewPreparationKit.*" />
+          <option name="PATTERN" value="com.org.java8.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,13 +207,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrinrdDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.org.hackerrank.java.PrinrdDemo" />
+    <configuration name="SupplierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.org.java8.BuiltInFunctionalInterface.SupplierDemo" />
       <module name="JavaPro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.org.hackerrank.java.*" />
+          <option name="PATTERN" value="com.org.java8.BuiltInFunctionalInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,6 +225,18 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -157,14 +257,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JumpingOnTheClouds" />
-        <item itemvalue="Application.Heo" />
-        <item itemvalue="Application.EndOfFile" />
-        <item itemvalue="Application.JavaDatatypes" />
-        <item itemvalue="Application.PrinrdDemo" />
+        <item itemvalue="Application.AbstractionDemo" />
+        <item itemvalue="Application.SupplierDemo" />
+        <item itemvalue="Application.ReduceDemo" />
+        <item itemvalue="Application.PeekDemo" />
+        <item itemvalue="Application.StatisticsDemo" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -179,143 +280,72 @@
       <workItem from="1590847423175" duration="5710000" />
       <workItem from="1596816356686" duration="7274000" />
       <workItem from="1596897652551" duration="294000" />
+      <workItem from="1600274985623" duration="6915000" />
+      <workItem from="1600342270669" duration="1971000" />
+      <workItem from="1600345286802" duration="10531000" />
+      <workItem from="1600683773874" duration="10671000" />
+      <workItem from="1600882024890" duration="751000" />
+      <workItem from="1601368096071" duration="731000" />
+      <workItem from="1601370948310" duration="737000" />
+      <workItem from="1601481829382" duration="1952000" />
+      <workItem from="1601726876068" duration="551000" />
+      <workItem from="1601902293610" duration="7702000" />
+      <workItem from="1601974264740" duration="8887000" />
+      <workItem from="1602156081240" duration="531000" />
+      <workItem from="1602174707580" duration="4393000" />
+      <workItem from="1602338420108" duration="513000" />
+      <workItem from="1602491498764" duration="2561000" />
+      <workItem from="1602668210229" duration="583000" />
+      <workItem from="1602745547475" duration="1186000" />
+      <workItem from="1603276346325" duration="1237000" />
+      <workItem from="1603524168537" duration="944000" />
+      <workItem from="1604241340184" duration="6460000" />
+      <workItem from="1604265315103" duration="647000" />
+      <workItem from="1604329901457" duration="3907000" />
+      <workItem from="1604338500931" duration="41000" />
+      <workItem from="1604338568566" duration="2786000" />
+      <workItem from="1604588681178" duration="585000" />
+      <workItem from="1604655615241" duration="2685000" />
+      <workItem from="1604693847497" duration="598000" />
+      <workItem from="1604739983477" duration="5868000" />
+      <workItem from="1605262992632" duration="594000" />
+      <workItem from="1605630542558" duration="1098000" />
+      <workItem from="1605904299708" duration="1096000" />
+      <workItem from="1606303456382" duration="6554000" />
+      <workItem from="1607339445739" duration="3587000" />
+      <workItem from="1608737485694" duration="973000" />
+      <workItem from="1608834410899" duration="865000" />
+      <workItem from="1610360979976" duration="629000" />
+      <workItem from="1610370445055" duration="3533000" />
+      <workItem from="1610964935409" duration="2345000" />
+      <workItem from="1610967807188" duration="1388000" />
+      <workItem from="1612452166721" duration="1347000" />
+      <workItem from="1612514830166" duration="477000" />
+      <workItem from="1612539288212" duration="58000" />
+      <workItem from="1612866682393" duration="2809000" />
+      <workItem from="1612953408598" duration="1350000" />
+      <workItem from="1613037671607" duration="600000" />
+      <workItem from="1614006351201" duration="25297000" />
+      <workItem from="1614792826274" duration="23000" />
+      <workItem from="1616670928668" duration="2625000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="2580" y="443" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1596816396077">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state x="2580" y="443" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1680.23.1920.1057/47.23.1633.1027@1680.23.1920.1057" timestamp="1596816396077" />
-    <state x="2580" y="443" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590847718361" />
-    <state x="2571" y="123" width="779" height="827" key="DiffContextDialog" timestamp="1590847927884">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state x="2571" y="123" width="779" height="827" key="DiffContextDialog/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590847927884" />
-    <state width="1222" height="280" key="GridCell.Tab.0.bottom" timestamp="1596872038343">
-      <screen x="45" y="23" width="1635" height="1027" />
-    </state>
-    <state width="1222" height="280" key="GridCell.Tab.0.bottom/1680.23.1920.1057/47.23.1633.1027@1680.23.1920.1057" timestamp="1596823452506" />
-    <state width="1222" height="280" key="GridCell.Tab.0.bottom/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590859524319" />
-    <state width="1222" height="280" key="GridCell.Tab.0.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1596872038343" />
-    <state width="1222" height="280" key="GridCell.Tab.0.center" timestamp="1596872038342">
-      <screen x="45" y="23" width="1635" height="1027" />
-    </state>
-    <state width="1222" height="280" key="GridCell.Tab.0.center/1680.23.1920.1057/47.23.1633.1027@1680.23.1920.1057" timestamp="1596823452505" />
-    <state width="1222" height="280" key="GridCell.Tab.0.center/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590859524318" />
-    <state width="1222" height="280" key="GridCell.Tab.0.center/45.23.1635.1027@45.23.1635.1027" timestamp="1596872038342" />
-    <state width="1222" height="280" key="GridCell.Tab.0.left" timestamp="1596872038342">
-      <screen x="45" y="23" width="1635" height="1027" />
-    </state>
-    <state width="1222" height="280" key="GridCell.Tab.0.left/1680.23.1920.1057/47.23.1633.1027@1680.23.1920.1057" timestamp="1596823452504" />
-    <state width="1222" height="280" key="GridCell.Tab.0.left/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590859524317" />
-    <state width="1222" height="280" key="GridCell.Tab.0.left/45.23.1635.1027@45.23.1635.1027" timestamp="1596872038342" />
-    <state width="1222" height="280" key="GridCell.Tab.0.right" timestamp="1596872038343">
-      <screen x="45" y="23" width="1635" height="1027" />
-    </state>
-    <state width="1222" height="280" key="GridCell.Tab.0.right/1680.23.1920.1057/47.23.1633.1027@1680.23.1920.1057" timestamp="1596823452506" />
-    <state width="1222" height="280" key="GridCell.Tab.0.right/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590859524318" />
-    <state width="1222" height="280" key="GridCell.Tab.0.right/45.23.1635.1027@45.23.1635.1027" timestamp="1596872038343" />
-    <state x="384" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1596897656023">
-      <screen x="57" y="25" width="1623" height="1025" />
-    </state>
-    <state x="384" y="366" key="com.intellij.ide.util.TipDialog/1680.25.1920.1055/57.25.1623.1025@57.25.1623.1025" timestamp="1596897656023" />
-    <state x="2498" y="293" width="639" height="486" key="find.popup" timestamp="1590857706971">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state x="2498" y="293" width="639" height="486" key="find.popup/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590857706971" />
-    <state x="2483" y="250" key="search.everywhere.popup" timestamp="1590848576091">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state x="2483" y="250" key="search.everywhere.popup/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1590848576091" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>JavaPro</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/org/generic/UserName.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

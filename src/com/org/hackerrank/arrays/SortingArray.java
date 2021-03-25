@@ -1,6 +1,10 @@
 package com.org.hackerrank.arrays;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 public class SortingArray {
 
@@ -10,38 +14,52 @@ public class SortingArray {
 		 * descending order of their frequency. Use of Collections not allowed input:
 		 * [4,3,1,6,4,3,6,4] output: [4,4,4,3,3,6,6,1]
 		 */
-		int[] array = { 9, 9, 4, 3, 9, 1, 6, 4, 3, 9, 6, 4, 9 };
-		for (int i : array) {
-			System.out.print(i + ",");
-		}
-		System.out.println();
-		sortArray(array);
-		removeDuplicates(array);
-		removeDuplicates(new int[] { 4, 3, 2, 4, 9, 2 });
+//		int[] array = { 9, 9, 4, 3, 9, 1, 6, 4, 3, 9, 6, 4, 9 };
+//		for (int i : array) {
+//			System.out.print(i + ",");
+//		}
+//		System.out.println();
+//		sortArray(array);
+//		removeDuplicates(array);
+//		removeDuplicates(new int[] { 4, 3, 2, 4, 9, 2 });
+//
+//		removeDuplicates(new int[] { 1, 2, 1, 2, 1, 2 });
+//
+//		removeDuplicates(new int[] { 15, 21, 11, 21, 51, 21, 11 });
+//
+//		removeDuplicates(new int[] { 7, 3, 21, 7, 34, 18, 3, 21 });
 
-		removeDuplicates(new int[] { 1, 2, 1, 2, 1, 2 });
-
-		removeDuplicates(new int[] { 15, 21, 11, 21, 51, 21, 11 });
-
-		removeDuplicates(new int[] { 7, 3, 21, 7, 34, 18, 3, 21 });
+		sortCom();
 	}
 
 	public static int[] sort(int[] array) {
-		int[] sortedAarray = array;
 		for (int i = 0; i < array.length; i++) {
 
 			for (int j = 0; j < i; j++) {
 				int temp;
-				if (sortedAarray[i] > sortedAarray[j]) {
-					temp = sortedAarray[i];
-					sortedAarray[i] = sortedAarray[j];
-					sortedAarray[j] = temp;
+				if (array[i] > array[j]) {
+					temp = array[i];
+					array[i] = array[j];
+					array[j] = temp;
 				}
 			}
+
 		}
-		printArray(sortedAarray);
+		printArray(array);
 		System.out.println();
-		return sortedAarray;
+		return array;
+	}
+
+	public static void sortCom() {
+		List<Integer> list = Arrays.asList(10, 1, 20, 11, 21, 12);
+		Comparator<Integer> cmp = new Comparator<Integer>() {
+			public int compare(Integer o1, Integer o2) {
+				return Integer.valueOf(o2).compareTo(Integer.valueOf(o1));
+			}
+		};
+		Collections.sort(list, cmp);
+		//return list.get(list.size()-10);
+		System.out.println(list);
 	}
 
 	private static void sortArray(int[] array) {
@@ -71,16 +89,16 @@ public class SortingArray {
 	}
 
 	public static void printArray2D(int[][] array) {
-		for (int i = 0; i < array.length; i++) {
-			System.out.println(array[i][0] + "," + array[i][1]);
+		for (int[] ints : array) {
+			System.out.println(ints[0] + "," + ints[1]);
 		}
 	}
 
 	static void removeDuplicates(int[] arrayWithDuplicates) {
 		System.out.println("Array With Duplicates : ");
 
-		for (int i = 0; i < arrayWithDuplicates.length; i++) {
-			System.out.print(arrayWithDuplicates[i] + "\t");
+		for (int arrayWithDuplicate : arrayWithDuplicates) {
+			System.out.print(arrayWithDuplicate + "\t");
 		}
 
 		// Assuming all elements in input array are unique
@@ -109,13 +127,10 @@ public class SortingArray {
 
 		// Printing arrayWithoutDuplicates
 
-		System.out.println();
 		System.out.println("Array Without Duplicates : ");
-		for (int i = 0; i < arrayWithoutDuplicates.length; i++) {
-			System.out.print(arrayWithoutDuplicates[i] + "\t");
+		for (int arrayWithoutDuplicate : arrayWithoutDuplicates) {
+			System.out.print(arrayWithoutDuplicate + "\t");
 		}
-		System.out.println();
-		System.out.println("==============================");
 	}
 
 }

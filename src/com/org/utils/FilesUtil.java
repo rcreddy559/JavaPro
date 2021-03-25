@@ -40,7 +40,7 @@ public class FilesUtil {
 
 	public static void main(String[] args) {
 		System.out.println("-- main---");
-		new FilesUtil().readEmployeesStream();
+		readEmployeesStream();
 	}
 
 	private static EduEmployee readEmployeeStream(final String employeeNum) {

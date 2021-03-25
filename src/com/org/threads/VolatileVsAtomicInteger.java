@@ -1,2 +1,4 @@
-package com.org.threads;public class VolatileVsAtomicInteger {
+package com.org.threads;
+
+public class VolatileVsAtomicInteger {
 }

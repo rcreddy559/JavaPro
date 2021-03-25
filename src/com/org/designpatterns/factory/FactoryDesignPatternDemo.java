@@ -8,6 +8,7 @@ public class FactoryDesignPatternDemo {
 		Plan plan = planFactory.getPlan("DOMESTICPLAN");
 		plan.getRate();
 		plan.calculateBill(12);
+
 	}
 
 }

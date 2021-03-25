@@ -16,24 +16,40 @@ public class ReduceDemo {
 	}
 
 	private static void reduceMapReduce() {
-		List<Person> persons = ObjectsUtils.getPersions();
+		var persons = ObjectsUtils.getPersions();
 
-		persons.stream().map(Person::getPhoneNumber).reduce("", (x, y) -> x + y);
+		var result =persons.stream()
+				.map(Person::getPhoneNumber)
+				.reduce("",
+						(x, y) -> x + y);
+
+		var output = persons.stream()
+				.reduce("Phone Concat:",
+						(pn,p)->pn+p.getPhoneNumber(),
+						String::concat);
+
+		System.out.println(result);
+		System.out.println(output);
 
 	}
 
 	private static void reduceDemo2() {
 		List<Person> persons = ObjectsUtils.getPersions();
 
-		int totalAge = persons.stream().map(Person::getAge).reduce(0, (x, y) -> x + y);
-		System.out.println("Average Age: " + totalAge / persons.size());
+		int totalAge = persons.stream().map(Person::getAge)
+				.reduce(0, Integer::sum);
 
+		var result = persons.stream()
+				.reduce(0, (ageSum, p)->ageSum+p.getAge(), Integer::sum);
+
+		System.out.println(result);
+		System.out.println("Average Age: " + totalAge / persons.size());
 	}
 
 	private static void reduceDemo1() {
 
 		List<Integer> list = Arrays.asList(22, 33, 44, 55, 66, 77);
-		Integer integer = list.stream().reduce(0, (x, y) -> x + y);
+		Integer integer = list.stream().reduce(0, Integer::sum);
 
 		System.out.println(integer);
 

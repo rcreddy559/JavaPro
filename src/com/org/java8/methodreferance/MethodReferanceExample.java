@@ -11,8 +11,8 @@ public class MethodReferanceExample {
 	public static void main(String[] args) {
 //		MethodReferanceExample me = 
 		// Thread newThread = new Thread(()-> printMessage()); or
-		Thread newThread = new Thread(MethodReferanceExample::printMessage);
-		newThread.start();
+//		Thread newThread = new Thread(MethodReferanceExample::printMessage);
+//		newThread.start();
 
 	}
 

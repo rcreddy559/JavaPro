@@ -5,67 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aab983b3-dc99-48c4-92a2-26645545f24b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/org/java8/streams/FindDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/org/java8/streams/FlatMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/org/java8/streams/PeekDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/org/java8/streams/StatisticsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/org/oops/abstraction/AbstractionDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaPro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/DemoStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/DemoStatic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/clone/CloneDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/clone/CloneDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/designpatterns/decorator/DecoratorPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/designpatterns/decorator/DecoratorPatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/designpatterns/factory/FactoryDesignPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/designpatterns/factory/FactoryDesignPatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/designpatterns/singleton/LazySingletonDesignPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/designpatterns/singleton/LazySingletonDesignPatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/enumimpl/MyDemoOnEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/enumimpl/MyDemoOnEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/generic/UserName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/generic/UserName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/generic/UserNameMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/generic/UserNameMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/Demo6nomads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/Demo6nomads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/InterviewPreparationKit/MinimumSwaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/InterviewPreparationKit/MinimumSwaps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/MaxMinArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/MaxMinArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/PalindromeFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/PalindromeFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/StringTokenSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/StringTokenSplit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/arrays/AllArrayPros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/arrays/AllArrayPros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/arrays/NewYearChaos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/arrays/NewYearChaos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/arrays/SortingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/arrays/SortingArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/java/JavaForLoop2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/java/JavaForLoop2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/hackerrank/java/Quadruplets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/hackerrank/java/Quadruplets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/harman/GroupSimilarStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/harman/GroupSimilarStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/harman/SimilarStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/harman/SimilarStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/innerclass/StaticInnerCalssDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/innerclass/StaticInnerCalssDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java10/LocalVarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java10/LocalVarDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java8/BuiltInFunctionalInterface/SupplierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/BuiltInFunctionalInterface/SupplierDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java8/StringJoinerImpl/StringJoinerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/StringJoinerImpl/StringJoinerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java8/collectors/CustomCollectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/collectors/CustomCollectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java8/dateandtime/CalculateWeekDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/dateandtime/CalculateWeekDays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java8/defaultmethods/DemoDefaultImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/defaultmethods/DemoDefaultImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java8/io/IODemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/io/IODemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java8/methodreferance/FunctionalInterfaceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/methodreferance/FunctionalInterfaceExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java8/methodreferance/MethodReferanceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/methodreferance/MethodReferanceExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java8/streams/FirstDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/streams/FirstDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java8/streams/FrequentlyAskedInterviewQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/streams/FrequentlyAskedInterviewQuestions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java8/streams/reduce/ReduceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java8/streams/reduce/ReduceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java9/AnonymousClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java9/AnonymousClasses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java9/FactoryMethodsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java9/FactoryMethodsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java9/PrivateInterfaceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java9/PrivateInterfaceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java9/SafeVarargs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java9/SafeVarargs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java9/StreamAPIImprovement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java9/StreamAPIImprovement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java9/StreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java9/StreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java9/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java9/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/java9/TryWithResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/java9/TryWithResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/strings/StringInternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/strings/StringInternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/threads/VolatileVsAtomicInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/threads/VolatileVsAtomicInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/utils/EmpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/utils/EmpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/utils/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/utils/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/utils/FilesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/utils/FilesUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/utils/ObjectsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/utils/ObjectsUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/org/wildcard/WildcardDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/wildcard/WildcardDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/scanner/ScannerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/scanner/ScannerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/sorting/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/sorting/MergeSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/sorting/MergeSortDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,18 +173,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -327,7 +261,7 @@
       <workItem from="1613037671607" duration="600000" />
       <workItem from="1614006351201" duration="25297000" />
       <workItem from="1614792826274" duration="23000" />
-      <workItem from="1616670928668" duration="2625000" />
+      <workItem from="1616670928668" duration="3917000" />
     </task>
     <servers />
   </component>

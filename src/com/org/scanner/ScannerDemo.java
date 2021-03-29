@@ -31,7 +31,6 @@ public class ScannerDemo {
 			}
 			
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
 			
@@ -40,7 +39,6 @@ public class ScannerDemo {
 					if(fileReader != null) fileReader.close();
 					if(scanner != null) scanner.close();
 				} catch (IOException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 		}

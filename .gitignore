@@ -1,6 +1,7 @@
 target/
 !.mvn/wrapper/maven-wrapper.jar
-
+bin/
+out/
 
 .idea/**/**
 .idea/*
@@ -28,3 +29,18 @@ dist/
 nbdist/
 .nb-gradle/
 .idea/workspace.xml
+
+### VS Code ###
+.vscode/
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+*.log.*
+
+### Local ###
+.env
+.env.local

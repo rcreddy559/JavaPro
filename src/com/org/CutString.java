@@ -7,35 +7,43 @@ import java.util.regex.Pattern;
 public class CutString {
 
 	public static String splitString(String msg, int lineSize) {
-		StringBuffer sb = new StringBuffer();
+		if (msg == null || msg.isEmpty() || lineSize <= 0) {
+			return "";
+		}
 
-		Pattern p = Pattern.compile("\\b.{1," + (lineSize - 1) + "}\\b\\W?");
+		StringBuilder sb = new StringBuilder(msg.length());
+
+		Pattern p = Pattern.compile("\\b.{1," + lineSize + "}\\b\\W?");
 		Matcher m = p.matcher(msg);
 
 		while (m.find()) {
-//			System.out.println(m.group().trim()); // Debug
 			sb.append(m.group());
 		}
 		return sb.toString();
 	}
 
 	public static String splitStringWords(String message, int K) {
+		if (message == null || message.isEmpty() || K <= 0) {
+			return "";
+		}
+
 		StringTokenizer st = new StringTokenizer(message);
-		StringBuffer sb = new StringBuffer(K);
-		System.out.println(st.countTokens());
+		StringBuilder sb = new StringBuilder(K);
 
-		String str = "";
-		int temp = 0;
-		while (st.hasMoreElements()) {
+		while (st.hasMoreTokens()) {
+			String str = st.nextToken();
+			int nextLength = sb.length() == 0 ? str.length() : sb.length() + 1 + str.length();
 
-			str = st.nextToken();
-			temp = (str.length() + 1 + sb.toString().trim().length());
-			if (sb.length() <= K && temp <= K) {
-				System.out.println(sb.length() + " : " + str);
-				sb.append(str + " ");
+			if (nextLength <= K) {
+				if (sb.length() > 0) {
+					sb.append(' ');
+				}
+				sb.append(str);
+			} else {
+				break;
 			}
 		}
-		return sb.toString().trim();
+		return sb.toString();
 	}
 
 	public static void main(String[] args) {

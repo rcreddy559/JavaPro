@@ -7,22 +7,20 @@ import java.util.stream.Stream;
 import com.org.exceptions.EducationException;
 import com.org.models.EduEmployee;
 
-
 public class EmpUtils {
 
-	
 	Set<EduEmployee> employees = FilesUtil.getEmployees();
-	
+
 	public static void main(String[] args) {
 		new EmpUtils().getEmployees();
 	}
-	
+
 	public Set<EduEmployee> getEmployees() {
 		return employees;
 	}
-	
+
 	public EduEmployee getEmployee(String employeeNum) {
-		
+
 		EduEmployee employee = null;
 		Optional<EduEmployee> employeeOptional = null;
 
@@ -40,17 +38,18 @@ public class EmpUtils {
 	}
 
 	public boolean deleteEmployee(String employeeNum) {
-		return employees.removeIf(e->e.getEmployeeNum().equals(employeeNum));
+		return employees.removeIf(e -> e.getEmployeeNum().equals(employeeNum));
 	}
 
 	public void createEmployee(EduEmployee employee) throws EducationException {
-		 final EduEmployee employeeNew = getEmployee(employee.getEmployeeNum());
-		 if(employeeNew == null) {
-			 employees.add(employee);
-		 } else {
-			 throw new EducationException("Employee Exits; "+employee.toString());
-		 }
+		final EduEmployee employeeNew = getEmployee(employee.getEmployeeNum());
+		if (employeeNew == null) {
+			employees.add(employee);
+		} else {
+			throw new EducationException("Employee Exits; " + employee.toString());
+		}
 	}
+
 	public boolean update(EduEmployee employee) {
 		return employees.add(employee);
 	}
